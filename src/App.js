@@ -1,4 +1,3 @@
-import "./App.css";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import { items } from "./items";
@@ -6,7 +5,7 @@ import { items } from "./items";
 function App() {
   return (
     <div>
-      <Header />
+      <Header title="The Coffee Corner" />
       <Home items={items} />
     </div>
   );

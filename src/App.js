@@ -1,9 +1,13 @@
 import "./App.css";
+import Header from "./components/Header";
+import Home from "./components/Home";
+import { items } from "./items";
 
 function App() {
   return (
     <div>
-      <h1>The Coffee Corner</h1>
+      <Header />
+      <Home items={items} />
     </div>
   );
 }
